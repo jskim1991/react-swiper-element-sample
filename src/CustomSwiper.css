@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    height: calc(600px + 3 * 4px);
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px; /* push down pagination */
+}
